@@ -24,3 +24,4 @@ func (h *handlerImpl) Greet(c *fiber.Ctx) error {
 	c.SendStatus(fiber.StatusOK)
 	return c.SendString(fmt.Sprintf("Hi, %s", name))
 }
+

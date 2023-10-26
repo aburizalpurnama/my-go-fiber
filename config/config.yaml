@@ -2,3 +2,6 @@ server:
   host: 127.0.0.1
   port: 3001
   timeout: 5s
+
+database:
+  dsn: host=localhost user=admin password=secret dbname=my_go-fiber port=5432 sslmode=disable
